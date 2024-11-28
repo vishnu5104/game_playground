@@ -7,7 +7,7 @@
     "install": "cd kaplay && pnpm i",
     "dev": "farm start",
     "start": "farm start",
-    "build": "vite build",
+    "build": "farm build",
     "preview": "vite preview",
     "generate:examples": "node --experimental-strip-types scripts/examples.ts",
     "fmt": "dprint fmt",
