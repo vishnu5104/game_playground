@@ -15,10 +15,6 @@
     "dev:bin": "node scripts/cli.js --examples=fakeExamples"
   },
   "dependencies": {
-    "@farmfe/cli": "^1.0.2",
-    "@farmfe/core": "^1.3.0",
-    "@farmfe/js-plugin-postcss": "^1.9.0",
-    "@farmfe/plugin-react": "^1.2.0",
     "@fontsource-variable/rubik": "^5.1.0",
     "@formkit/drag-and-drop": "^0.0.38",
     "@kaplayjs/crew": "^1.6.1",
@@ -44,6 +40,11 @@
     "zustand": "^4.5.5"
   },
   "devDependencies": {
+    "@farmfe/cli": "^1.0.2",
+    "@farmfe/core": "^1.3.0",
+    "@farmfe/js-plugin-postcss": "^1.9.0",
+    "@farmfe/plugin-react": "^1.2.0",
+    "@farmfe/plugin-sass": "^1.1.0",
     "@kaplayjs/dprint-config": "^1.1.0",
     "@types/node": "^22.7.5",
     "@types/pako": "^2.0.3",
