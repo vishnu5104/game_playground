@@ -5,9 +5,9 @@
   "bin": "scripts/cli.js",
   "scripts": {
     "install": "cd kaplay && pnpm i",
-    "dev": "farm start",
-    "start": "farm start",
-    "build": "farm build",
+    "dev": "vite start",
+    "start": "vite start",
+    "build": "vite build",
     "preview": "vite preview",
     "generate:examples": "node --experimental-strip-types scripts/examples.ts",
     "fmt": "dprint fmt",
